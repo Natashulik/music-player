@@ -1,9 +1,9 @@
-<svg width="895" height="459" viewBox="0 0 895 459" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className= "ellipse-svg" width="895" height="459" fill="none" >
 <g filter="url(#filter0_f_1_3334)">
 <path d="M780.668 198.952C780.668 279.585 631.355 344.952 447.168 344.952C262.981 344.952 113.668 279.585 113.668 198.952C113.668 118.318 262.981 52.9517 447.168 52.9517C631.355 52.9517 780.668 118.318 780.668 198.952Z" fill="#B9FD50" fill-opacity="0.69"/>
 </g>
 <defs>
-<filter id="filter0_f_1_3334" x="0.144302" y="-60.5718" width="894.047" height="519.047" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_1_3334" x="0.144302" y="-60.5718"  className= "ellipse-filter" width="894.047" height="519.047" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="56.7617" result="effect1_foregroundBlur_1_3334"/>
