@@ -49,40 +49,44 @@ const Playbar = () => {
 
   return (
     <div className="playbar">
-      <img
-        className="playbar-picture"
-        src={currentTrack ? currentTrack.preview : defaultTrack.preview}
-        alt=""
-      />
-      <IconButton
-        className="playbar-button"
-        onClick={() =>
-          handlePlay(currentTrackId ? currentTrackId : defaultTrack.id)
-        }
-      >
-        {currentTrack && currentTrack.isPlaying ? <Pause /> : <PlayArrow />}
-      </IconButton>
-      <div className="track-info playbar-info">
-        <p className="track-info__title">
-          {currentTrack ? currentTrack.title : defaultTrack.title}
-        </p>
-        <p className="track-info__artist">
-          {currentTrack ? currentTrack.artist : defaultTrack.artist}
-        </p>
+      <div className="playbar-left">
+        <img
+          className="playbar-picture"
+          src={currentTrack ? currentTrack.preview : defaultTrack.preview}
+          alt=""
+        />
+        <IconButton
+          className="playbar-button"
+          onClick={() =>
+            handlePlay(currentTrackId ? currentTrackId : defaultTrack.id)
+          }
+        >
+          {currentTrack && currentTrack.isPlaying ? <Pause /> : <PlayArrow />}
+        </IconButton>
+        <div className="track-info playbar-info">
+          <p className="track-info__title">
+            {currentTrack ? currentTrack.title : defaultTrack.title}
+          </p>
+          <p className="track-info__artist">
+            {currentTrack ? currentTrack.artist : defaultTrack.artist}
+          </p>
+        </div>
+        <IconButton className="playbar-button" onClick={handlePreviousTrack}>
+          <FastRewind />
+        </IconButton>
+        <IconButton className="playbar-button" onClick={handleNextTrack}>
+          <FastForward />
+        </IconButton>
       </div>
-      <IconButton className="playbar-button" onClick={handlePreviousTrack}>
-        <FastRewind />
-      </IconButton>
-      <IconButton className="playbar-button" onClick={handleNextTrack}>
-        <FastForward />
-      </IconButton>
-      <div className="slider-wrapper">
-        <TimeControl />
-        <p className="time">
-          {currentTrack
-            ? formateTime(currentTrack.duration)
-            : formateTime(defaultTrack.duration)}
-        </p>
+      <div className="playbar-right">
+        <div className="slider-wrapper">
+          <TimeControl />
+          <p className="time">
+            {currentTrack
+              ? formateTime(currentTrack.duration)
+              : formateTime(defaultTrack.duration)}
+          </p>
+        </div>
       </div>
     </div>
   );

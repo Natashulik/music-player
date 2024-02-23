@@ -1,7 +1,7 @@
 import { useAppSelector, useAppDispatch } from "../hook";
 import { ChangeEvent } from "react";
 import { setIsPlaying, setTracks, setFilteredTracks } from "../redux/listSlice";
-import { ReactComponent as Ellips } from "../assets/ellipse.svg";
+import { ReactComponent as Ellipse } from "../assets/ellipse.svg";
 
 const Input = () => {
   const { tracks, currentTrackId } = useAppSelector((state) => state.list);
@@ -34,7 +34,7 @@ const Input = () => {
   return (
     <div className="input-wrapper">
       <div className="ellipse-block">
-        <Ellips />
+        <Ellipse className="ellipse" />
       </div>
       <input
         className="input"

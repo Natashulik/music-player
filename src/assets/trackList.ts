@@ -43,7 +43,7 @@ export const data = [
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/470/325x325/over-the-sun-pt-2-1688688058-VsiCV6yYsv.jpg",
     duration: 161,
-    title: "Over The Sun (Pt. 2)",
+    title: "Over The Sun",
     artist: "Coopex",
   },
   {
