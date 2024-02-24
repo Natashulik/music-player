@@ -148,6 +148,24 @@ export const data = [
   },
   {
     id: 17,
+    src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/590/time-with-you-feat-rvle-1703120452-RSoCx30N8V.mp3",
+    preview:
+      "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/590/325x325/time-with-you-feat-rvle-1703120450-NLUmNDqcEK.jpg",
+    duration: 156,
+    title: "Time With You",
+    artist: "RVLE, Tollef",
+  },
+  {
+    id: 18,
+    src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/583/whats-the-problem-1702551656-evxTC7URyG.mp3",
+    preview:
+      "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/583/325x325/whats-the-problem-1702551653-S6dwHsSBAg.jpg",
+    duration: 148,
+    title: "What's The Problem?",
+    artist: "OSKI",
+  },
+  {
+    id: 19,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/616/vision-1586958106-w6RKce6Cz4.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/616/1000x0/vision-1586958102-Zzy5Gf1SKm.jpg",
