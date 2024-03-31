@@ -73,18 +73,9 @@ export const data = [
     title: "What You Like",
     artist: "Curbi",
   },
-  {
-    id: 9,
-    src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/885/dead-of-night-1609236037-9MfpB6VEhX.mp3",
-    preview:
-      "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/885/1000x0/dead-of-night-1609236028-MO9yxOe5HC.jpg",
-    duration: 233,
-    title: "Dead of Night",
-    artist: "if found",
-  },
 
   {
-    id: 10,
+    id: 9,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/838/1602924116_i3Tn2EkNdU_Rival---Lonely-Way-ft.-Caravn-NCS-Release.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/838/1000x0/1602924116_v2O3UoVY11_Artwork.jpg",
@@ -93,7 +84,7 @@ export const data = [
     artist: "Rival, Caravn",
   },
   {
-    id: 11,
+    id: 10,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/691/new-style-1586959962-Qyaa8hmvgv.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/691/1000x0/new-style-1586959956-pTXtBw9yzO.jpg",
@@ -102,7 +93,7 @@ export const data = [
     artist: "Droptek",
   },
   {
-    id: 12,
+    id: 11,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/671/where-we-started-feat-jex-1586959343-ugPNLDQsMI.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/671/1000x0/where-we-started-feat-jex-1586959339-BqrS2PV0TI.jpg",
@@ -111,7 +102,7 @@ export const data = [
     artist: "Lost Sky, Jex",
   },
   {
-    id: 13,
+    id: 12,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/676/volt-1586959481-7oo0fw99Vt.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/676/1000x0/volt-1586959457-zDcTmbdEOq.png",
@@ -120,7 +111,7 @@ export const data = [
     artist: "Modern Revolt",
   },
   {
-    id: 14,
+    id: 13,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/649/war-zone-ft-mime-1586958862-uOdchVMspI.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/649/1000x0/war-zone-ft-mime-1586958856-RK8C6g2w4R.jpg",
@@ -129,7 +120,7 @@ export const data = [
     artist: "Unknown Brain",
   },
   {
-    id: 15,
+    id: 14,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/154/no-way-back-1656410438-DYBZU8U2rN.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/113/1000x0/falling-1649412036-lkoB5hiJq8.jpg",
@@ -138,7 +129,7 @@ export const data = [
     artist: "Rival, CRVN",
   },
   {
-    id: 16,
+    id: 15,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/577/cradles-1586957268-RxHgjX9e14.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/577/100x100/cradles-1586957231-QpMwffYL5H.png",
@@ -147,7 +138,7 @@ export const data = [
     artist: "Sub Urban",
   },
   {
-    id: 17,
+    id: 16,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/590/time-with-you-feat-rvle-1703120452-RSoCx30N8V.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/590/325x325/time-with-you-feat-rvle-1703120450-NLUmNDqcEK.jpg",
@@ -156,7 +147,7 @@ export const data = [
     artist: "RVLE, Tollef",
   },
   {
-    id: 18,
+    id: 17,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/583/whats-the-problem-1702551656-evxTC7URyG.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/583/325x325/whats-the-problem-1702551653-S6dwHsSBAg.jpg",
@@ -165,7 +156,7 @@ export const data = [
     artist: "OSKI",
   },
   {
-    id: 19,
+    id: 18,
     src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/616/vision-1586958106-w6RKce6Cz4.mp3",
     preview:
       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/616/1000x0/vision-1586958102-Zzy5Gf1SKm.jpg",

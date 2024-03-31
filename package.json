@@ -1,7 +1,7 @@
 {
   "name": "music-player",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/music-player",
+  "homepage": "https://Natashulik.github.io/music-player",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
